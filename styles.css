@@ -17,14 +17,14 @@
   margin: 5px;
 }
 
-.red {
-  background-color: red;
-}
-
 .green {
   background-color: green;
 }
 
 .yellow {
   background-color: yellow;
+}
+
+.red {
+  background-color: red;
 }

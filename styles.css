@@ -1,30 +1,34 @@
-.container {
-  width: 300px;
-  padding: 20px;
-  border: 2px solid #000;
-  border-radius: 50px;
-  margin: 50px auto;        /* centers the container */
-  text-align: center;       /* aligns blocks inline */
+/*  your css code here. If applicable */
+body{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	margin-top:40vh;
+    
 }
+.container{
+	height:30vh;
+	width:50vw;
+	background-color:lightgray;
+	border:5px black solid;
+	border-radius:40px;
+	display:flex;
+	justify-content:center;
+	gap:10px;
 
-.red,
-.green,
-.yellow {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;       /* makes the blocks circular */
-  display: inline-block;
-  margin: 5px;
 }
-
-.green {
-  background-color: green;
+.box{
+	border-radius:60px;
+	height:80px;
+	width:80px;
+	margin-top:35px;
 }
-
-.yellow {
-  background-color: yellow;
+.green{
+	background-color:green;
 }
-
-.red {
-  background-color: red;
+.yellow{
+	background-color:yellow;
+}
+.red{
+	background-color:red;
 }
